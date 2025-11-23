@@ -3,34 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/styles.css">
-    <title>Login</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Cadastro</title>
 </head>
 <body>
-    
-        <section class="login">
+    <main class="cadastro">
 
-            <div class="login_slogan">
-                <p class="login_textoApresentacao">Faça Login <br> E entre para o nosso time</p>
-                <img class="login_imagem"src="./img/imgTelaLogin.jpg" alt="Minha Imagem">
-            </div>
+        <img src="./img/carrinho.png" alt="Carrinho">
+        <p><b>Crie sua Conta</b></p>
 
-            <div class="login_caixaLogin">
-                <h1 class="login_caixaLogin_titulo">LOGIN</h1>
-                
-                <div class="login_caixaLogin_inputs">
-                    <label class="login_caixaLogin_labelInput"for="nome_usuario">Usuário</label>
-                    <input id="nome_usuario" type="email" placeholder="Usuário">
+        <div class="registro">
+            <img src="./img/usuario.png" alt="Ícone Usuário">
+            <input type="text" placeholder="Nome Completo">
+            <img src="./img/vazia.png">
+        </div>
+        <div class="registro">
+            <img src="./img/usuario.png" alt="Ícone Usuário">
+            <input type="email" placeholder="E-mail">
+            <img src="./img/email.png" alt="Ícone Email">
+        </div>
+        <div class="registro">
+            <img src="./img/telefone.png" alt="Ícone Telefone">
+            <input type="tel" placeholder="Celular">
+            <img src="./img/celular.png" alt="Ícone Celular">
+        </div>
+        <div class="registro">
+            <img src="./img/senha.png" alt="Ícone Senha">
+            <input type="password" placeholder="Senha">
+            <img src="./img/celular.png" alt="Ícone Celular">
+        </div>
+        <div class="registro">
+            <img src="./img/senha.png" alt="Ícone Senha">
+            <input type="password" placeholder="Confirmar Senha">
+            <img src="./img/email.png" alt="Ícone Email">
+        </div>
+        <div class="termos">
+            <input type="checkbox">
+            <p>Eu aceito os Termos de Serviço e a Política de Privacidade</p>
+        </div>
 
-                    <label class="login_caixaLogin_labelInput"for="senha_usuario">Senha</label>
-                    <input id="senha_usuario" type="password" placeholder="Senha">
-                </div>
-                <a class="login_caixaLogin_botaoRedefinirSenha" href="">Recuperar a Senha</a>
-                
-                <a class="login_caixaLogin_botaoLogin"href="">LOGIN</a>
-            </div>
-            
-        </section>
+        <button>Cadastrar</button>
+        <p>Já tem uma conta?<a href=""> Entrar </a></p>
+
     </main>
 </body>
 </html>
