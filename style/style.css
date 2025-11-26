@@ -34,7 +34,7 @@ body{
     font-size: 1.4rem;
 }
 
-.cadastro > p{
+.cadastro_titulo{
     margin-bottom: 30px;
 }
 
@@ -87,4 +87,9 @@ body{
 
 .cadastro button:hover{
     transform: scale(1.1);
+}
+.lembre-me{
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
 }
