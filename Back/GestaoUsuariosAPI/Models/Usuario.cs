@@ -4,7 +4,8 @@ namespace GestaoUsuariosAPI;
 
 public class Usuario
 {
-    
+    [Key]
+    [Required]
     public int Id { get; set; }
     [Required(ErrorMessage = "O nome é obrigatório")]
     public string NomeCompleto { get; set; } = string.Empty;

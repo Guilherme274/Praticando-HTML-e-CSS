@@ -34,3 +34,10 @@ C:\Users\Guilherme\Desktop\Projetos\praticandoHTML e CSS\paginaLogin\Back\Gestao
 C:\Users\Guilherme\Desktop\Projetos\praticandoHTML e CSS\paginaLogin\Back\GestaoUsuariosAPI\obj\Debug\net8.0\GestaoUsuariosAPI.pdb
 C:\Users\Guilherme\Desktop\Projetos\praticandoHTML e CSS\paginaLogin\Back\GestaoUsuariosAPI\obj\Debug\net8.0\GestaoUsuariosAPI.genruntimeconfig.cache
 C:\Users\Guilherme\Desktop\Projetos\praticandoHTML e CSS\paginaLogin\Back\GestaoUsuariosAPI\obj\Debug\net8.0\ref\GestaoUsuariosAPI.dll
+C:\Users\Guilherme\Desktop\Projetos\praticandoHTML e CSS\paginaLogin\Back\GestaoUsuariosAPI\bin\Debug\net8.0\Humanizer.dll
+C:\Users\Guilherme\Desktop\Projetos\praticandoHTML e CSS\paginaLogin\Back\GestaoUsuariosAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Guilherme\Desktop\Projetos\praticandoHTML e CSS\paginaLogin\Back\GestaoUsuariosAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Guilherme\Desktop\Projetos\praticandoHTML e CSS\paginaLogin\Back\GestaoUsuariosAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Guilherme\Desktop\Projetos\praticandoHTML e CSS\paginaLogin\Back\GestaoUsuariosAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Guilherme\Desktop\Projetos\praticandoHTML e CSS\paginaLogin\Back\GestaoUsuariosAPI\bin\Debug\net8.0\MySqlConnector.dll
+C:\Users\Guilherme\Desktop\Projetos\praticandoHTML e CSS\paginaLogin\Back\GestaoUsuariosAPI\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll

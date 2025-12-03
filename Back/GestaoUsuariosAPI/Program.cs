@@ -1,7 +1,16 @@
+using GestaoUsuariosAPI.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+var conexao = builder.Configuration.GetConnectionString
+("UsuarioConnection");
+               
+builder.Services.AddDbContext<UsuarioContext>(opts => 
+opts.UseMySql(conexao ,
+    ServerVersion.AutoDetect(conexao)));
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
